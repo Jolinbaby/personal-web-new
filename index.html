@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="header-content">
+            <div class="profile-info">
+                <img src="avatar.jpg" alt="个人头像" class="avatar">
+                <div class="name-title">
+                    <h1>刘洁琳 Jielin Liu</h1>
+                    <p> 清华大学硕士在读 | 产品经理 ｜努力进化中...</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 侧边导航栏 -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> 首页</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> 教育背景</a></li>
+            <li><a href="#internships"><i class="fas fa-briefcase"></i> 实习经历</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> 项目经历</a></li>
+            <li><a href="#hobbies"><i class="fas fa-heart"></i> 个人爱好</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 个人照片部分 -->
+        <section id="home" class="section hero-section">
+            <div class="hero-background">
+                <img src="profile.jpg" alt="个人照片" class="hero-image">
+                <div class="overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="intro">
+                    <div class="title-container">
+                        <h2 class="emoji-title">👩‍💻</h2>
+                        <h2 class="hello-title"></h2>
+                    </div>
+                    <p>和你一起探索技术与创意的无限可能。</p>
+                    <div class="skills-container">
+                        <h3 class="skills-title">专业技能<span>Professional Skills</span></h3>
+                        
+                        <!-- 产品技能 -->
+                        <div class="skill-category">
+                            <div class="skill-tag product">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>产品策划</span>
+                            </div>
+                            <div class="skill-tag product">
+                                <i class="fas fa-tasks"></i>
+                                <span>需求分析</span>
+                            </div>
+                            <div class="skill-tag product">
+                                <i class="fas fa-chart-line"></i>
+                                <span>数据分析</span>
+                            </div>
+                        </div>
+                        
+                        <!-- 设计技能 -->
+                        <div class="skill-category">
+                            <div class="skill-tag design">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <span>原型设计</span>
+                            </div>
+                            <div class="skill-tag design">
+                                <i class="fas fa-users"></i>
+                                <span>用户研究</span>
+                            </div>
+                        </div>
+                        
+                        <!-- 技术技能 -->
+                        <div class="skill-category">
+                            <div class="skill-tag tech">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-tag tech">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-tag tech">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Unity游戏开发</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 教育背景 -->
+        <section id="education" class="section">
+            <div class="section-title">
+                <h2>教育背景</h2>
+                <p class="subtitle">Education Background</p>
+            </div>
+            <div class="horizontal-timeline">
+                <!-- 本科节点 -->
+                <div class="timeline-node">
+                    <div class="node-content-top">
+                        <div class="node-time">2019 - 2023</div>
+                        <div class="node-school">厦门大学</div>
+                    </div>
+                    <div class="node-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="node-content-bottom">
+                        <h3>本科</h3>
+                        <div class="node-description">数字媒体技术（计算机类）</div>
+                        <div class="node-details">
+                            <span>GPA 3.8/4.0</span>
+                            <span>国家奖学金</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 硕士节点 -->
+                <div class="timeline-node">
+                    <div class="node-content-top">
+                        <div class="node-time">2023 - 2026</div>
+                        <div class="node-school">清华大学</div>
+                    </div>
+                    <div class="node-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="node-content-bottom">
+                        <h3>硕士</h3>
+                        <div class="node-description">电子信息类（互联网+创新设计方向）</div>
+                        <div class="node-details">
+                            <span>GPA 3.9/4.0</span>
+                            <span>大厂实习</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 交换经历节点 -->
+                <div class="timeline-node">
+                    <div class="node-content-top">
+                        <div class="node-time">2024 秋季</div>
+                        <div class="node-school">日内瓦大学</div>
+                    </div>
+                    <div class="node-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="node-content-bottom">
+                        <h3>交换生</h3>
+                        <div class="node-description">学术交流项目</div>
+                        <div class="node-details">
+                            <span>国际交流</span>
+                            <span>文化体验</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 实习经历 -->
+        <section id="internships" class="section">
+            <div class="section-title">
+                <h2>实习经历</h2>
+                <p class="subtitle">Internship Experience</p>
+            </div>
+            <div class="cards-container">
+                <div class="internship-card">
+                    <div class="logo-container">
+                        <img src="company-logo1.jpeg" alt="公司logo" class="company-logo1">
+                    </div>
+                    <p class="position">技术产品实习生</p>
+                    <p class="duration">2024.04 - 2024.08</p>
+                    <p class="description">
+                     负责游戏中台（启动器）B/C端产品需求，深度参与直播串流创新项目0-1上线，输出 AI 在"游戏+直播"场景的落地方案。
+                    </p>
+                </div>
+
+                <!-- 新增实习经历 -->
+                <div class="internship-card">
+                    <div class="logo-container">
+                        <img src="company-logo2.jpg" alt="SHEIN公司logo" class="company-logo2">
+                    </div>
+                    <p class="position">电商直播产品实习生</p>
+                    <p class="duration">2024.09 - 2025.01</p>
+                    <p class="description">
+                        负责SHEIN APP电商直播相关的B/C端产品需求，参与面向欧美、东南亚等海外市场的B端直播后台0-1重构项目。
+                    </p>
+                </div>
+                <!-- 新增实习经历 -->
+                <div class="internship-card">
+                    <div class="logo-container">
+                        <img src="company-logo3.jpeg" alt="哈啰公司logo" class="company-logo3">
+                    </div>
+                    <p class="position">产品运营实习生</p>
+                    <p class="duration">2022.12 - 2023.04</p>
+                    <p class="description">
+                        面向公司内部2000+业务人员，搭建和维护一款B端效能产品，实现数据/权限的全链路管控，提升业务效率30%以上。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目经历 -->
+        <section id="projects" class="section">
+            <div class="section-title">
+                <h2>项目经历</h2>
+                <p class="subtitle">Project Experience</p>
+            </div>
+            <div class="project-carousel">
+                <button class="carousel-btn prev" id="prevProject">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="project-container">
+                    <div class="project-slides">
+                        <div class="project-card">
+                            <img src="project-image3.png" alt="基于文本的人物动画生成和交互式编辑系统" class="project-image">
+                            <h3>基于文本的人物动画生成和交互式编辑系统</h3>
+                            <p class="project-role">本科毕业设计</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">AIGC</span>
+                                <span class="tech-tag">深度学习</span>
+                                <span class="tech-tag">图形学</span>
+                                <span class="tech-tag">Unity3D</span>
+                            </div>
+                            <div class="project-description">
+                                <p>针对角色动画制作过程繁琐的问题，本工作创新性地提出了首个基于文本的3D人物动画自动生成系统，用户通过输入文本，就能生成相应人物动作，推动了技术研究落地为产品。</p>
+                                <ul>
+                                    <li>文献调研：调研收集近两年来包括CVPR、ICCV、SIGGRAPH等计算机视觉/图形学领域顶刊约30余篇，跟踪相关AI行业动态信息，并整理为文档，探索同时具备创新性和技术可行性的课题方向</li>
+                                    <li>模型研究：调研并学习包括GAN、VAE、Diffusion Model等经典AI生成模型的原理，并部署至本地进行模型训练</li>
+                                    <li>产品设计与开发：通过需求分析，确定了系统功能及架构设计；使用Axure完成系统的原型设计，使用Unity和Python分别完成系统前、后端开发，实现可演示的系统demo</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="project-image2.png" alt="想购就GO智能购物车" class="project-image">
+                            <h3>「想购就GO」智能购物车</h3>
+                            <p class="project-role">产品负责人</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">人脸识别</span>
+                                <span class="tech-tag">语音交互</span>
+                                <span class="tech-tag">Unity3D</span>
+                                <span class="tech-tag">Arduino</span>
+                            </div>
+                            <div class="project-description">
+                                <p>针对消费者在大型商超寻找商品困难、体验单一的问题，从0-1设计了一款以购物车为载体的智能引导系统，通过用户与虚拟角色的语音交互，为用户提供更加舒心、便捷、个性化的购物体验。</p>
+                                <ul>
+                                    <li>用户调研：实地调研多家大型商超，访谈B端和C端用户30余人，制作用户画像和体验地图，总结痛点确定产品定位</li>
+                                    <li>竞品分析：使用SWOT分析法进行竞品分析，提出"虚拟角色"和"懒人清单"的创意差异化设计</li>
+                                    <li>功能设计：定义需求和功能，设计购物全流程交互，包括原型设计和语音交互规则定义</li>
+                                    <li>技术实现：参与前端交互界面开发及后端语音识别API调用实现</li>
+                                    <li>项目管理：主持团队头脑风暴，负责团队管理和进度把控</li>
+                                </ul>
+                                <div class="project-achievement">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>中美青年创客大赛厦门分赛区二等奖</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="nextProject">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- 个人爱好 -->
+        <section id="hobbies" class="section">
+            <div class="section-title">
+                <h2>个人爱好</h2>
+                <p class="subtitle">Personal Interests</p>
+            </div>
+            <div class="hobbies-container">
+                <div class="hobby-card">
+                    <div class="hobby-slider">
+                        <div class="slides reading-slides">
+                            <img src="reading1.jpg" alt="读书照片1">
+                            <img src="reading2.jpg" alt="读书照片2">
+                            <img src="reading3.jpg" alt="读书照片3">
+                        </div>
+                        <button class="slider-btn prev" data-slider="reading"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next" data-slider="reading"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="hobby-info">
+                        <i class="fas fa-book"></i>
+                        <h3>运动</h3>
+                        <p>热爱跳舞、羽毛球，喜欢冒险</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-slider">
+                        <div class="slides travel-slides">
+                            <img src="travel1.jpg" alt="旅行照片1">
+                            <img src="travel2.jpg" alt="旅行照片2">
+                            <img src="travel3.jpg" alt="旅行照片3">
+                        </div>
+                        <button class="slider-btn prev" data-slider="travel"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next" data-slider="travel"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="hobby-info">
+                        <i class="fas fa-plane"></i>
+                        <h3>旅游</h3>
+                        <p>喜欢探索世界各地的文化与风景</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-slider">
+                        <div class="slides photo-slides">
+                            <img src="photo1.jpg" alt="摄影作品1">
+                            <img src="photo2.jpg" alt="摄影作品2">
+                            <img src="photo3.jpg" alt="摄影作品3">
+                        </div>
+                        <button class="slider-btn prev" data-slider="photo"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next" data-slider="photo"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="hobby-info">
+                        <i class="fas fa-camera"></i>
+                        <h3>摄影</h3>
+                        <p>用镜头记录生活中的美好瞬间</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI助手对话模块 -->
+        <div class="chat-container">
+            <!-- 悬浮按钮 -->
+            <button class="chat-button" id="chatButton">
+                <i class="fas fa-robot"></i>
+            </button>
+            
+            <!-- 对话窗口 -->
+            <div class="chat-window" id="chatWindow">
+                <!-- 顶部栏 -->
+                <div class="chat-header">
+                    <h3>AI助手</h3>
+                    <button class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <!-- 消息区域 -->
+                <div class="chat-messages" id="chatMessages">
+                    <!-- AI欢迎消息 -->
+                    <div class="message ai-message">
+                        <div class="avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            你好！我是你的AI助手，有什么我可以帮你的吗？
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 推荐问题 -->
+                <div class="suggested-questions">
+                    <button class="question-button">你是谁？</button>
+                    <button class="question-button">介绍下你的教育背景</button>
+                    <button class="question-button">你有什么项目经验？</button>
+                </div>
+                
+                <!-- 输入区域 -->
+                <div class="chat-input">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="输入你的问题..."
+                        rows="1"
+                    ></textarea>
+                    <button class="send-button" id="sendButton">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:yourname@example.com">liu_jielin@foxmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+1234567890">+86 15606013821 (微信同号)</a>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#" class="social-icon" title="WeChat">
+                    <i class="fab fa-weixin"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.xiaohongshu.com/user/profile/5d7372d00000000001007916?xsec_token=YBqJCOiG_zi849Bp0i-mKLpYutWMu_EH8HtNgMEomii-M=&xsec_source=app_share&xhsshare=CopyLink&appuid=5e187bee0000000001000ac6&apptime=1739800030&share_id=21931f8c5066408aa46c328b8c09cf79" 
+                   class="social-icon" 
+                   title="小红书"
+                   target="_blank">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>© 2025 Jolin Liu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html> 
